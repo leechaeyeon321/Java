@@ -4,9 +4,15 @@ public class Rectangle {
 	private int width;
 	private int height;
 	public static int num1 = 0;
+	public static void showNum1() {
+		System.out.println("인스턴스 개수는: " + num1);
+	}
 	//생성자
 	public Rectangle(int width) {
 		this.width = width;
+	}
+	public Rectangle() {
+		// TODO Auto-generated constructor stub
 	}
 	//getter & setter
 	public int getWidth() {
